@@ -22,13 +22,14 @@
   padding-top: 10px;
 }
 
-.editions li:hover, .help li:hover {
+.editions li:hover {
   background-color: lightgray;
+  border-radius: 2px;
 }
 
 .editions li {
-  margin: 10px 0px 10px 6px;
-  padding: 0px 125px 0px 0px;
+  margin: 10px 0px 10px 0px;
+  padding: 2px 125px 2px 5px;
 }
 
 .help li {
@@ -49,6 +50,18 @@ span {
 }
 
 .dropdown-subtitle:hover {
-  background: none;
   cursor: default;
 }
+
+#help-click {
+  color: blue
+}
+
+#help-click:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+// .dropdown-subtitle li a {
+//   padding: 5px;
+// }

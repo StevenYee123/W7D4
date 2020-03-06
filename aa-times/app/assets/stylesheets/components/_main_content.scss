@@ -1,0 +1,160 @@
+.col-1-8_ul li {
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 35px;
+}
+
+.col-1-8_ul{
+  list-style: disc;
+  margin-left: 15px;
+  font-family: sans-serif;
+  
+}
+
+.comment-link {
+  color:rgb(0, 178, 238)
+}
+
+.comment-link:hover {
+  text-decoration: underline;
+}
+
+.col-1-2 {
+  padding: 20px 0px 0px 110px;
+}
+
+.video {
+  padding-top: 20px;
+  width: 130%;
+  height: 400px;
+}
+
+.warning{
+  padding: 10px 0px 0px 0px;
+  font-size: 14px;
+}
+
+.hr-2 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.hr-2:hover {
+  text-decoration: underline;
+}
+
+.col p {
+  font-size:14px;
+}
+
+.col hr {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.opinion_header {
+  text-align: center;
+}
+
+#left {
+  // margin-left: 20px;
+  padding-left: 100px;
+}
+
+#right {
+  padding-right: 80px;
+}
+
+#oped {
+  padding-bottom: 0px;
+  color: black;
+  font-weight: normal;
+}
+
+#opinions {
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.oped-list {
+  padding-top: 5px;
+  list-style-type: disc;
+  font-weight: bold;
+  line-height: 18px;
+  padding-left: 14px;
+}
+
+.sub_paragraph{
+  line-height: 20px;
+}
+
+.thumbnail{
+  height: 100px;
+}
+
+.thumbnail img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#opinion_text {
+  position: relative;
+  left: 149px;
+  top: 20px;
+  z-index: 1;
+  box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.09);
+  width: 40%;
+  height: 26px;
+  border: 1px solid rgb(0, 0, 148);
+  padding: 0px 0px 0px 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+#opinion_text::placeholder {
+  color: lightgray;
+}
+
+.sign-up-button {
+  width: 10%;
+  height: 7%;
+  position: relative;
+  text-align: center;
+  left: 145px;
+  top: 21px;
+  font-size: 15px;
+}
+
+.little_message{
+  width: 52%;
+  position: relative;
+  left: 155px;
+  top: 35px;
+  text-align: center;
+}
+
+.evil_message {
+  text-align: center;
+  font-size: 10px;
+  color: grey;
+}
+
+#ending {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+#ending2 {
+  width:100%;
+  margin-top: 1px;
+}
+
+#ending_hr{
+  float: left;
+  position: relative;
+  z-index: -1;
+  top: 100px;
+  width: 45%;
+}

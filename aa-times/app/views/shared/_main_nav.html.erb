@@ -1,9 +1,12 @@
 <header class="main-nav">
 	<nav class="left-nav">
 		<ul>
-			<li id="sections-sidebar-btn">
+			<li>
+			<button id="sections-sidebar-btn">
 				<i class="fa fa-bars"></i>
 				<span class="sections-spn">sections</span>
+				</button>
+				<%= render partial: 'shared/sections_sidebar' %>
 			</li>
 			<li id="search-modal-btn">
 				<i class="fa fa-search"></i>
@@ -13,8 +16,8 @@
 	</nav>
 	<nav class="right-nav">
 		<ul>
-			<li><button>SUBSCRIBE NOW</button></li>
-			<li><button>LOG IN</button></li>
+			<li><button id="subscribe_button">SUBSCRIBE NOW</button></li>
+			<li><button id="login_button">LOG IN</button></li>
 			<li><i class="fas fa-cog" id="gear-dropdown-btn"></i>
 			 <%= render partial: 'shared/gear_dropdown' %></li>
 		</ul>

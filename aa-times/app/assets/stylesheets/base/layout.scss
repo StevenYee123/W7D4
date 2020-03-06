@@ -51,7 +51,22 @@ hr {
 	margin: 0;
 }
 
+.hr-bottom{
+	position: relative;
+	// top: 110px;
+	color: lightgrey;
+	padding-bottom: 10px;
+}
+
 .hr-top {
-	height: 2px;
-	margin-bottom: 1px;
+	// height: 2px;
+	padding-top: 20px;
+	margin-bottom: 1px;	
+	font-style: italic;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.hr-top:hover {
+	text-decoration: underline black;
 }
